@@ -1,0 +1,7 @@
+version: '3'
+services:
+  chatbot:
+    image: 7940image2
+    # missing instructions for setting environment variable
+    # missing instructions for setting the entrypoint and/or command
+    # docker run  --name lab7partB -d --env ACCESS_TOKEN=1667217277:AAHPcDkWQd2aWiUAuZwZOC4kcMaZK7V6Aks --env HOST=redis-11363.c1.asia-northeast1-1.gce.cloud.redislabs.com --env PASSWORD=1nOA0St0I7p9pQqu8HkQ18XqDfnoPeoL --env REDISPORT=11363 7940image python chatbot.py
